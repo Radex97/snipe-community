@@ -1,6 +1,9 @@
+"use client";
+
+ "use client";
 
 import React, { useState } from 'react';
-import { loginWithEmailAndPassword } from '../firebase/auth';
+import {  loginWithEmailAndPassword } from '../firebase/auth';
 
 const LoginForm: React.FC = () => {
   const [email, setEmail] = useState('');

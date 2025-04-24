@@ -1,8 +1,7 @@
-tsx
-"use client";
+'use client';
 
-import { useState } from "react";
-import { addMessage } from "../firebase/auth";
+import { useState } from 'react';
+import { addMessage } from '../firebase/auth';
 
 const CreateMessage = () => {
   const [message, setMessage] = useState("");
