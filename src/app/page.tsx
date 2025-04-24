@@ -34,14 +34,6 @@ export default function Home() {
         <RegisterForm />
       </div>
     </main>
-  );
-  }
+  ); }
 
 
-
-
-
-
-    </div>
-  );
-}
