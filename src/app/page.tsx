@@ -1,7 +1,7 @@
-import LoginForm from "../components/LoginForm";
-import RegisterForm from "../components/RegisterForm";
-import MessageFeed from "../components/MessageFeed";
-import CreateMessage from "../components/CreateMessage";
+import LoginForm from "/components/LoginForm";
+import RegisterForm from "/components/RegisterForm";
+import MessageFeed from "/components/MessageFeed";
+import CreateMessage from "/components/CreateMessage";
 
 export default function Home() {
   return (
