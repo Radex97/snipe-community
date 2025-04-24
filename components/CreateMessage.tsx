@@ -1,4 +1,6 @@
 tsx
+"use client";
+
 import { useState } from "react";
 import { addMessage } from "../firebase/auth";
 
