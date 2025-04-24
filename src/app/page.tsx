@@ -1,5 +1,7 @@
 import LoginForm from "../components/LoginForm";
 import RegisterForm from "../components/RegisterForm";
+import MessageFeed from "../components/MessageFeed";
+import CreateMessage from "../components/CreateMessage";
 
 export default function Home() {
   return (
@@ -13,6 +15,12 @@ export default function Home() {
           Hier kannst du dich mit anderen SNIPE Solutions Mitgliedern
           austauschen, Ideen teilen und gemeinsam Projekte voranbringen.{" "}
         </p>
+      </div>
+        <div className="w-full">
+            <CreateMessage />
+        </div>
+        <div className="w-full">
+            <MessageFeed />
       </div>
       <div className="w-full">
         <h1 className="text-2xl font-bold text-gray-900 dark:text-gray-100 mb-4">
